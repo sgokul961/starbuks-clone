@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+}
+header{
+
+    height: 100px;
+    border: 1px solid;
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+.logo img{
+    width:50px;
+}
+.logo
+{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.firstmenu, .secondmenu{
+
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    cursor: pointer;
+  
+}
+.firstmenu{
+
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: 800;
+    font-style:oblique;  
+}
+.secondmenu{
+
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+.secondmenu .signin{
+
+    border: 1px solid;
+    padding: 7px 20px;
+    border-radius: 50px;
+
+    opacity: 1;
+    transition: 0.3s;
+
+}
+.secondmenu .joinnow{
+
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    padding: 7px 20px;
+    border-radius: 70px;
+
+    opacity: 1;
+    transition: 0.3s;
+
+}
+.fa-solid{
+    padding :0 20px;
+}
+/* --------------------hover effects----------- */
+
+.secondmenu li:hover{
+    opacity: 0.6;
+    background-color:rgb(82, 79, 79);
+}
+
+
+/* ------------------first box------------------------------ */
+.contentleft1{
+
+    display: flex;
+    padding:20px 0
+   
+}
+
+.contentleft1 img{
+
+    width: 50%;
+}
+.contentleft1 .text{
+
+  width: 50%;
+  background-color:#153e31;
+  text-align: center;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+
+
+ 
+}
+
+.contentleft1 button{
+  background-color: #153e31; 
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 5px 20px;
+  color: white;
+}
+/* --------------------------secondbox------------------------------ */
+.contentright1{
+
+    display:  flex;
+    padding: 20px 0;
+
+}
+ 
+.contentright1 img{
+
+    width: 40%;
+
+}
+.contentright1 .text
+{
+background-color: pink ;
+text-align: center;
+padding:150px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+size: 5px;
+}
+
+.contentright1 button{
+    font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid  black;
+  padding: 5px;
+    background-color: pink ;
+  
+}
+ /* ------------thirdbox ------------ */
+ .contentleft2{
+
+    display: flex;
+    padding:20px 0;
+    width: 100%;
+    height: 50%; 
+}
+
+.contentleft2 img{
+
+    width: 50%;
+   
+}
+.contentleft2 .text{
+
+  width: 50%;
+  background-color:#a0c292;
+  text-align: center;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contentleft2 button{
+    font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid  black;
+  padding: 5px;
+    background-color: #a0c292 ;
+  
+}
+/* --------------------fourthbox--------------------- */
+.contentright2 {
+    display: flex;
+    padding: 20px 0;
+    height:90%;
+
+    
+}
+.contentright2 img{
+
+    width: 50%;
+    height: auto;
+
+
+}
+.contentright2 .text{
+
+    width: 100%;
+    background-color: pink;
+    text-align: center;
+    padding:150px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.contentright2 button{
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid  black;
+    padding: 5px;
+      background-color: pink; ;
+}
+/* -----------------fifth box------------------------ */
+.contentleft3{
+
+    display: flex;
+    padding:20px 0
+   
+}
+
+.contentleft3 img{
+
+    width: 50%;
+}
+.contentleft3 .text{
+
+  width: 50%;
+  background-color:skyblue;
+  text-align: center;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+ 
+}
+.contentleft3 button{
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid  black;
+    padding: 5px;
+      background-color: skyblue; 
+}
+
+section p{
+
+    text-align: center;
+    
+}
+section h1{
+    font-size: 30px ;
+}
+section p{
+    font-size: 5;
+    padding: 20px;
+}
+section .button{
+    background-color: black;
+}
+/* -------------footer------------- */
+.container{
+    margin: auto;
+    max-width: 1170px;
+    
+   
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+ul{
+list-style: none; 
+}
+
+footer{
+    border: 1px solid black;
+    padding:50px 0;
+    /* background-color:#24262b; */
+    background-color:white;
+    
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 500%;
+}
+.footer-col  ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+.footer-col ul li{
+    padding: 10px 0;
+}
+
+footer .follow
+{
+    
+    width: 100%;
+    padding: 30px 0;
+   
+  
+}
+footer .follow .notes ul{
+    display: flex;
+   justify-content: space-between;
+   
+
+}
+.follow li a{
+   
+   text-decoration: none;
+    
+    
+}
+footer .follow a{
+
+    color: black;
+    font-weight: 300;
+}
+
+
+/* -----------------icons size changing----------- */
+
+.fa-brands{
+    font-size: 35px;
+    padding: 30px 10px;
+   
+}
+span{
+   color: #006241;
+   padding:0 50px;
+}
